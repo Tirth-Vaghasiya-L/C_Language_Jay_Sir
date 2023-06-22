@@ -15,7 +15,7 @@ main()
 	{
 		if(pass[i] >= 65 && pass[i] <= 90 || pass[i] >= 97 && pass[i] <= 122)
 		{	
-			
+			ltr++;
 		}
 		else if(pass[i] >= 48 && pass [i] <= 57)
 		{
@@ -26,7 +26,7 @@ main()
 			sp++;
 		}
 	}
-	if(num > 0 && sp >0 && leng >0)
+	if(ltr > 0 && num > 0 && sp >0 && leng >0)
 	{
 		printf("Your Passwod Is Strong Enough !!");
 	}
