@@ -12,4 +12,6 @@ void main()
 	fp2 = fopen("fp2.txt","w");
 
 	fprintf(fp2,"%d",a);
+
+	fclose(fp2);
 }
